@@ -3,7 +3,7 @@
 //         expect(true).toBe(true);
 //     })
 // })
-const todoList = require('../todo');
+const todoList = require('..');
 const { all, markAsComplete, add, overdue, dueToday, dueLater } = todoList();
 
 const formattedDate = (d) => d.toISOString().split("T")[0];
