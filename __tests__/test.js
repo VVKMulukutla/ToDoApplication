@@ -1,8 +1,3 @@
-// describe("First Test Suite", () => {
-//     test("First Test case", () => {
-//         expect(true).toBe(true);
-//     })
-// })
 const todoList = require('..');
 const { all, markAsComplete, add, overdue, dueToday, dueLater } = todoList();
 
